@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UniversityDBModelStoreContainer" CdmEntityContainer="UniversityDBEntities2">
+    <EntitySetMapping Name="books">
+      <EntityTypeMapping TypeName="UniversityDBModel.books">
+        <MappingFragment StoreEntitySet="books">
+          <ScalarProperty Name="book_id" ColumnName="book_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="publication_date" ColumnName="publication_date" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="date_publication_university" ColumnName="date_publication_university" />
+          <ScalarProperty Name="amount_pages" ColumnName="amount_pages" />
+          <ScalarProperty Name="url" ColumnName="url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="UniversityDBModel.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="student_id" ColumnName="student_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="semester" ColumnName="semester" />
+          <ScalarProperty Name="training" ColumnName="training" />
+          <ScalarProperty Name="performance" ColumnName="performance" />
+          <ScalarProperty Name="date_admission" ColumnName="date_admission" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
